@@ -1,0 +1,19 @@
+{
+  "name": "cloneyoutube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/tailwind.css -o ./public/tailwind.css",
+    "prod": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.15",
+    "win-node-env": "^0.6.0"
+  }
+}
